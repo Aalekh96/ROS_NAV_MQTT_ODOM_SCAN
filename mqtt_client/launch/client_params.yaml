@@ -1,0 +1,40 @@
+broker:
+  host: localhost
+  port: 1883
+
+
+bridge:
+  ros2mqtt:
+    - ros_topic: /odom
+      mqtt_topic: pingpong/odom
+      primitive: false
+      inject_timestamp: true
+
+    - ros_topic: /scan
+      mqtt_topic: pingpong/scan
+      primitive: false
+      inject_timestamp: true
+
+
+
+ 
+    - ros_topic: /ping/primitive
+      mqtt_topic: pingpong/primitive
+      primitive: true
+
+
+  mqtt2ros:
+    - mqtt_topic: pingpong/odom
+      ros_topic: /pong/got_odom
+      primitive: false
+      inject_timestamp: true
+
+    - mqtt_topic: pingpong/scan
+      ros_topic: /pong/got_scan
+      primitive: false
+      inject_timestamp: true
+
+    - mqtt_topic: pingpong/primitive
+      ros_topic: /pong/primitive
+      primitive: true
+

@@ -1,0 +1,5 @@
+<launch>
+  <!-- move_base -->
+  <include file="$(find nav_mybot)/launch/move_base.launch">
+  </include>
+</launch>
