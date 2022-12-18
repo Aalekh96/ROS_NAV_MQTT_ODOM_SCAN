@@ -3,19 +3,19 @@
 The first file is named as Mobile description which is a ros package made to test the communication. 
   Step_1 -- To use the package, first run the launch file named, which will open the gazebo.
   
-  **roslaunch mobile_robot_description main.launch 
+  // roslaunch mobile_robot_description main.launch 
               
   Step_2 --  AMCL FILE.
   
-  **roslaunch mobile_robot_description amcl_plus_map_server.launch 
+  ** roslaunch mobile_robot_description amcl_plus_map_server.launch 
   
   Step_3 --  Rviz.
   
-  **rviz  (type in terminal)
+  ** rviz  (type in terminal)
               
   Step_4 --  Move_base node.
   
-  **roslaunch nav_mybot move_base.launch**
+  ** roslaunch nav_mybot move_base.launch**
               
 This setps will open the all the thinks required to run the single robot with ros. 
 
