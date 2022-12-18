@@ -11,14 +11,14 @@ The first file is named as Mobile description which is a ros package made to tes
   **rviz  (type in terminal)
               
   Step_4 --  Move_base node
-  **roslaunch nav_mybot move_base.launch
+  **roslaunch nav_mybot move_base.launch**
               
 This setps will open the all the thinks required to run the single robot with ros. 
 
 
 To open the communication part, 
   -- There is a package named mqtt_client, which connects to mqtt broker on which i have installed on aws server
-      >>> roslaunch mqtt_client standlone.launch
+   **roslaunch mqtt_client standlone.launch**
       
       ** Remember to change the ip address of the broker alon with port, username and password. 
   
