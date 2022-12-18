@@ -3,7 +3,7 @@
 The first file is named as Mobile description which is a ros package made to test the communication. 
   Step_1 -- To use the package, first run the launch file named, which will open the gazebo.
   
-  // roslaunch mobile_robot_description main.launch 
+  ** roslaunch mobile_robot_description main.launch 
               
   Step_2 --  AMCL FILE.
   
